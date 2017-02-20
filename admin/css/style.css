@@ -1,0 +1,484 @@
+@import url(reset.css);
+/*Шапка сайта*/
+body
+{
+    background-color: #e4e4e4;
+    background-image: url(../images/LineBg.jpg);
+    background-repeat: repeat-x;
+}
+
+
+
+#wrapper
+{
+    width: 1275px;
+    margin: 0 auto;
+    
+}
+
+#header
+{
+   margin-top: -17px;
+    width: 100%;
+    height: 90px;
+    background-image: url(../images/top.png);
+    background-repeat: no-repeat;
+    
+}
+
+#logo
+{
+    float: left;
+    display: block;
+    height: 126px;
+    width:403px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    margin-right: 100px;
+    margin-left: 50px;
+}
+
+#site{
+    
+    text-decoration: none;
+    font: 20px Arial, sans-serif;
+    float: right;
+    color: grey;
+}
+
+#menu_wrapper
+{
+    margin-top: 30px;
+    
+}
+
+#first_nav
+{
+    background-image: url(../images/first_nav.png);
+    background-repeat: no-repeat;
+    background-position: 0 -55px;
+}
+
+#first_nav:hover
+{
+    background-position: 0 0;
+}
+
+#second_nav
+{
+    background-image: url(../images/second_nav.png);
+    background-repeat: no-repeat;
+    background-position: 0 -55px;
+}
+
+#second_nav:hover
+{
+    background-position: 0 0px;
+}
+
+#last_nav
+{
+    background-image: url(../images/last_nav.png);
+    background-repeat: no-repeat;
+    background-position: 0 -55px;
+}
+
+#last_nav:hover
+{
+    background-position: 0 0;
+}
+
+#nav li
+{
+    float: left;
+    height: 55px;
+    width: 184px;
+    outline: 0px solid red;
+}
+
+#nav li a
+{
+    margin-top: 20px;
+    float: left;
+    display: block;
+    height: 39px;
+    width: 200px;
+    outline: 0px solid green;
+    text-align: center;
+    text-decoration: none;
+    font: 17px Arial, sans-serif;
+    color: #000000;
+}
+
+#nav li a:hover
+{
+    color: #ffffff;
+}
+
+/*Меню сайта*/
+
+
+#menu
+{
+
+    min-height: 1000px;
+    width: 20%;
+    outline: 0px solid red;
+    padding-top: 5px;
+   
+    
+}
+
+#menu_top
+{
+
+    width: 240px;
+    height: 11px;
+    background-image: url(../images/menu_top.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    float: top;
+   
+}
+
+
+#menu_center
+{
+    width: 240px;
+    background-image: url(../images/menu_center.png);
+    background-repeat: repeat-y;
+    margin: 0 auto;
+    float: top;
+   
+}
+
+#menu_bootom
+{
+    
+    width: 240px;
+    height: 11px;
+    background-image: url(../images/menu_boottom.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    float: top;
+}
+
+
+#menu2 a
+{
+    text-decoration: none;
+    font: 17px Arial, sans-serif;
+    color: #000000;
+    margin: 0 auto;
+}
+
+#menu2 a:hover
+{
+     color: red;
+}
+
+#search
+{
+    margin: 10px 10px 0 20px;
+   
+}
+
+
+#lessons_fotoshop
+{
+    width: 230px;
+    height: 45px;
+    background-image: url(../images/tittle.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+   
+   
+}
+
+#lessons_fotoshop h1
+{
+    font: 20px bold Arial, sans-serif;
+    color: #ffffff;
+    text-align: center;
+
+   position: relative;
+   top: 7px;
+}
+
+
+#border
+{
+    border-bottom: 1px solid black;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#content
+{
+    width: 80%;
+    outline: 0px solid red;
+
+   
+    
+}
+
+
+#con_tent
+{
+    position: relative;
+    top: -6px;
+}
+
+
+#content_tittle
+{
+  
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+#content_top
+{
+    width: 980px;
+    height: 11px;
+    background-image: url(../images/content_top.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    
+
+}
+
+#content_center
+{
+    width: 980px;
+     min-height: 500px;
+    background-image: url(../images/content_center.png);
+    background-repeat: repeat-y;
+    margin: 0 auto;
+}
+
+#content_bottom
+{
+    width: 980px;
+    height: 11px;
+    background-image: url(../images/content_bottom.png);
+    background-repeat: no-repeat;
+    margin: 0 auto;
+
+}
+
+#content_lesson
+{
+   margin-left: 20px;
+   margin-right: 20px;
+}
+
+#content h1
+{
+    font: bold 25px Arial, sans-serif;
+    text-align: center;
+    
+}
+#content p
+{
+    text-align: justify;
+
+}
+
+
+#lessons
+{
+    float: top;
+    margin-top: 10px;
+    width: 95%;
+    border: 3px outset #800000;
+    padding: 10px;
+    margin: 0 auto;
+
+}
+.lessons
+{
+
+    background-color: #d2d2d2;
+    padding-bottom: 5px;
+}
+
+.count
+{
+    font: 14px italic Arial, sans-serif;
+    color: #737373;
+}
+#lessons1
+{
+   text-decoration: none;
+    font: 20px bold Arial, sans-serif;
+    color: #000000; 
+}
+
+
+#lessons1:hover
+{
+    color: #969696;
+}
+
+#lessons_img
+{
+    border: 1px solid #000000;
+    margin: 3px;
+}
+
+#content_img
+{
+    text-align: center;
+}
+
+#content_img img
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#content_colo
+{
+    font: 14px italic Arial, sans-serif;
+    color: #737373;
+}
+
+#content_author
+{
+    float: left;
+}
+
+#content_ad
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+#content_ad p
+{
+    font: 16px bold Arial, sans-serif;
+ 
+}
+
+#content_adate p
+{
+    font: 18px bold Arial, sans-serif;
+    margin-left: 50px;
+}
+
+#coments_this
+{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font: 20px bold Arial, sans-serif;
+    color: red;
+}
+
+.coments_bold
+{
+    font: 16px bolder Arial, sans-serif;
+}
+
+#coments_text
+{
+    margin-top: 15px;
+    font: 18px Arial, sans-serif;
+}
+
+#information
+{
+    margin-top: 20px;
+    font: 20px bolder Arial, sans-serif;
+}
+
+
+#coments_read
+{
+    margin: 30px;
+}
+
+#new_coment
+{
+    margin: 30px 30px 0 30px;
+}
+
+
+
+/*Подвал сайта*/
+
+#footer
+{
+    height: 84px;
+    background-image: url(../images/bottom.png);
+    background-repeat: no-repeat;
+}
+
+#footer p
+{
+    font: bold 16px Arial, sans-serif;
+   
+    text-align: center;
+    padding-top: 60px;
+   
+    
+}
+
+/*Кнопка прокрутки*/
+.scroll-to-top-button{
+			background: #666 url(../images/Upload.png) center center no-repeat;
+			width: 32px;
+			height: 32px;
+			color: #fff;
+			font-family: verdana;
+			border-radius: 5px;
+			-moz-border-radius: 5px;
+			-webkit-border-radius: 5px;
+			-o-border-radius: 5px;
+			cursor: pointer;
+			padding: 15px;
+			margin: 20px;
+		}
+        
+#forms
+{
+    margin: 0 40px 0 40px;
+    padding-top: 20px;
+}  
+
+
+#forms p
+{
+    font: 20px bold Arial, sans-serif;
+}
+
+#forms a
+{
+    text-decoration: none;
+    font: 20px bold Arial, sans-serif;
+    color: #000000;
+}
+
+#forms a:hover
+{
+    color: red;
+}
+
+
+
+
+#opt
+{
+    width: 100px;
+}
+#menu_and_content h3
+{
+    margin-top: 60px;
+    font: 20px bolder Arial, sans-serif;    
+    margin-left: 35px;
+}    
+        
+        
